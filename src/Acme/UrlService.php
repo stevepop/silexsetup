@@ -10,4 +10,8 @@ class UrlService {
     public function get($short){
         return $this->urls[$short];
     }
+
+    public function getAll(){
+        return $this->urls;
+    }
 }
