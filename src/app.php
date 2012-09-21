@@ -23,6 +23,7 @@ $app['url_service'] = function() use ($app) {
 
 //$app->register(new \Acme\UrlService(), array('inifile' => __DIR__ . '/../resources/urls.ini'));
 
+// Route example http://silextut.local/add/my_key/biblepraise?url=http://www.biblepraise.org
 $app->get('/add/{key}/{url_slug}', function($url_slug, $key) use ($app){
     if($app['key'] != $key){
         throw new Exception('Invalid key');
