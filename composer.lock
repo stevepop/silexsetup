@@ -1,5 +1,5 @@
 {
-    "hash": "12a3ed1120d98b065fe30a789e7d3fd4",
+    "hash": "e4678b30337a783908aaddd6c1735f15",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -26,7 +26,6 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server"
             },
-            "time": "1347983448",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -55,7 +54,8 @@
             "keywords": [
                 "log",
                 "logging"
-            ]
+            ],
+            "time": "1347983448"
         },
         {
             "name": "pimple/pimple",
@@ -74,7 +74,6 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "1347278988",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -101,7 +100,8 @@
             "keywords": [
                 "dependency injection",
                 "container"
-            ]
+            ],
+            "time": "1347278988"
         },
         {
             "name": "silex/silex",
@@ -109,12 +109,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Silex.git",
-                "reference": "78efb9a6bef34e4547e937066707ee338f516698"
+                "reference": "9b63007bbdf6a5f68ab402c76fbaf9df56c67342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Silex/zipball/78efb9a6bef34e4547e937066707ee338f516698",
-                "reference": "78efb9a6bef34e4547e937066707ee338f516698",
+                "url": "https://github.com/fabpot/Silex/zipball/9b63007bbdf6a5f68ab402c76fbaf9df56c67342",
+                "reference": "9b63007bbdf6a5f68ab402c76fbaf9df56c67342",
                 "shasum": ""
             },
             "require": {
@@ -141,14 +141,13 @@
                 "symfony/locale": "2.1.*",
                 "twig/twig": ">=1.8.0,<2.0-dev",
                 "swiftmailer/swiftmailer": "4.2.*",
-                "doctrine/dbal": "2.2.*"
+                "doctrine/dbal": ">=2.2.0,<2.4.0-dev"
             },
             "suggest": {
                 "symfony/browser-kit": "2.1.*",
                 "symfony/css-selector": "2.1.*",
                 "symfony/dom-crawler": "2.1.*"
             },
-            "time": "1348027658",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -179,7 +178,8 @@
             "homepage": "http://silex.sensiolabs.org",
             "keywords": [
                 "microframework"
-            ]
+            ],
+            "time": "1348229548"
         },
         {
             "name": "symfony/browser-kit",
@@ -207,7 +207,6 @@
             "suggest": {
                 "symfony/process": "2.2.*"
             },
-            "time": "1347274777",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -234,7 +233,8 @@
                 }
             ],
             "description": "Symfony BrowserKit Component",
-            "homepage": "http://symfony.com"
+            "homepage": "http://symfony.com",
+            "time": "1347274777"
         },
         {
             "name": "symfony/dom-crawler",
@@ -260,7 +260,6 @@
             "suggest": {
                 "symfony/css-selector": "2.2.*"
             },
-            "time": "1348171091",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -287,7 +286,8 @@
                 }
             ],
             "description": "Symfony DomCrawler Component",
-            "homepage": "http://symfony.com"
+            "homepage": "http://symfony.com",
+            "time": "1348171091"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -314,7 +314,6 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/http-kernel": "2.1.*"
             },
-            "time": "1347274422",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -341,7 +340,8 @@
                 }
             ],
             "description": "Symfony EventDispatcher Component",
-            "homepage": "http://symfony.com"
+            "homepage": "http://symfony.com",
+            "time": "1347274422"
         },
         {
             "name": "symfony/http-foundation",
@@ -361,7 +361,6 @@
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1348208027",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -389,7 +388,8 @@
                 }
             ],
             "description": "Symfony HttpFoundation Component",
-            "homepage": "http://symfony.com"
+            "homepage": "http://symfony.com",
+            "time": "1348208027"
         },
         {
             "name": "symfony/http-kernel",
@@ -429,7 +429,6 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/finder": "2.1.*"
             },
-            "time": "1348209286",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -456,7 +455,8 @@
                 }
             ],
             "description": "Symfony HttpKernel Component",
-            "homepage": "http://symfony.com"
+            "homepage": "http://symfony.com",
+            "time": "1348209286"
         },
         {
             "name": "symfony/routing",
@@ -487,7 +487,6 @@
                 "symfony/config": "2.1.*",
                 "symfony/yaml": "2.1.*"
             },
-            "time": "1347274422",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -514,7 +513,55 @@
                 }
             ],
             "description": "Symfony Routing Component",
-            "homepage": "http://symfony.com"
+            "homepage": "http://symfony.com",
+            "time": "1347274422"
+        },
+        {
+            "name": "twig/extensions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Twig-extensions",
+                "reference": "f904575642b1213db69b4a98f08397e722ba1cae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/fabpot/Twig-extensions/zipball/f904575642b1213db69b4a98f08397e722ba1cae",
+                "reference": "f904575642b1213db69b4a98f08397e722ba1cae",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Twig_Extensions_": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Common additional features for Twig that do not directly belong in core",
+            "homepage": "https://github.com/fabpot/Twig-extensions",
+            "keywords": [
+                "debug",
+                "i18n",
+                "text"
+            ],
+            "time": "1346770278"
         },
         {
             "name": "twig/twig",
@@ -533,7 +580,6 @@
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-08-25 17:32:57",
             "type": "library",
             "extra": {
                 "branch-alias": {
